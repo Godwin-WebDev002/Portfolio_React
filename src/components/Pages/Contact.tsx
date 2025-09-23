@@ -21,7 +21,7 @@ export const Contact = () => {
 
     try {
       const response = await fetch(
-        "https://contact-api-xxey.onrender.com",
+        "https://contact-api-xxey.onrender.com/api/contact-me",
         {
           method: "POST",
           headers: {
@@ -125,4 +125,5 @@ export const Contact = () => {
     </div>
   );
 };
+
 
